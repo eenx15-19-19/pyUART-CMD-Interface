@@ -31,7 +31,7 @@ def main():
         elif(action == "r"):
             recieve()
         elif(action == "exit"):
-            serial.close()
+            ser.close()
             exit()
         else:
             wrong_input
