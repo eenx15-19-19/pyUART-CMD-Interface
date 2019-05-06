@@ -1,7 +1,7 @@
 from __future__ import print_function
 from clint.textui import puts, indent, colored, validators, prompt
 
-import serialUART
+from serialUART import ser
 
 # Import user created features
 from send import send

@@ -1,6 +1,6 @@
 import serial
 
-import serialUART
+from serialUART import ser
 
 from clint.textui import puts, indent, colored, prompt
 from helpers import verticalLine
